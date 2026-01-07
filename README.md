@@ -23,7 +23,17 @@ The project focuses on **private connectivity**, avoiding public IP exposure, wh
 
 ---
 
-## 🖼️ Architecture Diagram
-📸 *Screenshot Placeholder – Azure VNet Architecture Diagram*
+## 🖼️ Architecture Diagram & Resource Group Overview
+
+This section provides an overview of all Azure resources and networking configurations created for this project.
+
+### 🔹 Resource Group and Deployed Resources
+![Resource Group Overview](images/rg-overview.png)
+
+### 🔹 VNet Peering Configuration (CLI / Portal)
+![VNet Peering Configuration](images/cli-peering.png)
+
+### 🔹 VNet Peering Status – Connected
+![Peering Connected](images/peering-connected.png)
 
 
