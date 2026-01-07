@@ -1,11 +1,29 @@
-## Screenshots
+# Azure VNet Peering – HR & Finance Network Communication
 
-### Resource Group Overview
-![Resource Group](images/rg-overview.png)
+## 📌 Overview
+This project demonstrates how to establish secure communication between two isolated Azure Virtual Networks (VNets) using **VNet Peering**.  
+The scenario represents a real-world enterprise environment where the **HR** and **Finance** teams operate in separate networks but need to communicate privately.
 
-### VNet Peering Connected
-![Peering Connected](images/peering-connected.png)
+The project focuses on **private connectivity**, avoiding public IP exposure, which is a best practice in cloud environments.
 
-### CLI Output
-![CLI Peering](images/cli-peering.png)
+---
+
+## 🏗️ Architecture Design
+
+- Two separate VNets:
+  - **HR-VNet**
+  - **Finance-VNet**
+- Each VNet contains:
+  - One **private subnet**
+  - One **private Virtual Machine (VM)**
+- VNet Peering enabled between HR and Finance VNets
+- Communication tested using **ping (ICMP)**
+
+> In a real-world scenario, private applications or internal services would communicate instead of ping.
+
+---
+
+## 🖼️ Architecture Diagram
+📸 *Screenshot Placeholder – Azure VNet Architecture Diagram*
+
 
