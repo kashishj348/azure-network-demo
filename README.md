@@ -1,4 +1,4 @@
-# Azure VNet Peering – HR & Finance Network Communication
+# Design and Implementation of Private Azure VNets with VNet Peering
 
 ## 📌 Overview
 This project demonstrates how to establish secure communication between two isolated Azure Virtual Networks (VNets) using **VNet Peering**.  
